@@ -12,3 +12,5 @@ def customer(request):
     return HttpResponse('Customer_page')
 def index(request):    
     return render(request, 'accounts/index.html')
+def indexTour(request):
+    return render(request, 'Tour/index.html')
